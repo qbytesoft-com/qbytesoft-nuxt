@@ -1,6 +1,14 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'theme': '#24ACB2',
+      },
+    },
+    fontFamily: {
+      'sans': ['Open Sans', ...defaultTheme.fontFamily.sans],
+    },
   },
   plugins: [],
   content: [
@@ -10,6 +18,8 @@ module.exports = {
     `composables/**/*.{js,ts}`,
     `plugins/**/*.{js,ts}`,
     `App.{js,ts,vue}`,
-    `app.{js,ts,vue}`
+    `app.{js,ts,vue}`,
+    `./dist/**/*.{html,js}`,
+    "./nuxt.config.{js,ts}",
   ]
 }
