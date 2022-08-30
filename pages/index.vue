@@ -14,7 +14,8 @@ import HeaderBanner from "~/components/homepage/HeaderBanner";
 import ClientSection from "~/components/homepage/ClientSection";
 import OpenSource from "~/components/homepage/OpenSource";
 export default {
-  name: 'IndexPage',
+  // eslint-disable-next-line vue/component-definition-name-casing
+  name: 'index',
   components: {OpenSource, ClientSection, HeaderBanner},
   layout: 'base-layout'
 }

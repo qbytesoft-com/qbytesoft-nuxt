@@ -11,7 +11,7 @@
           <div class="main-menu text-right hidden lg:block">
             <ul class="menu-list">
               <li class="menu-list-item">
-                <nuxt-link :to="{name: 'IndexPage'}" class="menu-list-link">Home</nuxt-link>
+                <nuxt-link :to="{name: 'index'}" class="menu-list-link">Home</nuxt-link>
               </li>
               <li class="menu-list-item">
                 <nuxt-link :to="{name: 'web-development'}" class="menu-list-link">Web Development</nuxt-link>
@@ -51,7 +51,7 @@
     <div class="mobile-menu transition ease-linear delay-350">
       <ul class="menu-list border-t border-stone-200 mt-[10px] pt-[10px]">
         <li class="menu-list-mobile-item">
-          <nuxt-link :to="{name: 'IndexPage'}" class="menu-list-link">Home</nuxt-link>
+          <nuxt-link :to="{name: 'index'}" class="menu-list-link">Home</nuxt-link>
         </li>
         <li class="menu-list-mobile-item">
           <nuxt-link :to="{name: 'web-development'}" class="menu-list-link">Web Development</nuxt-link>

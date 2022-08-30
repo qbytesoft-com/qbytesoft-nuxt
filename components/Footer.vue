@@ -12,7 +12,7 @@
               >
                 <nuxt-link
                   class="text-[16px] md:text-[24px] text-[#F7F7F7] font-bold leading-[36px] transition duration-350 linear hover:text-[#d6d6d6]"
-                  :to="{name: 'IndexPage'}"
+                  :to="{name: 'index'}"
                 >Home</nuxt-link
                 >
               </li>
