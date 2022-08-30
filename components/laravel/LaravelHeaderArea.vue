@@ -12,7 +12,7 @@
             </p>
           </div>
           <div class="w-full flex justify-center md:mt-[110px] mt-[50px]">
-            <img src="/img/logo-3.png" alt="img-logo">
+            <img src="~/assets/img/logo-3.png" alt="img-logo">
           </div>
           <div class="w-full mx-auto flex flex-wrap md:flex-nowrap mt-[40px] md:mt-[20px]">
             <div class="w-full md:w-6/12 text-left md:text-right mr-0 md:mr-[15px] mb-[30px] md:mb-0">
