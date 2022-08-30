@@ -6,7 +6,9 @@
 
 <script>
 export default {
-  name: "shopify"
+  name: "shopify",
+  layout: 'base-layout',
+
 }
 </script>
 
