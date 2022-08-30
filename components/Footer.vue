@@ -31,7 +31,17 @@
                 <nuxt-link
                   class="text-[16px] md:text-[24px] text-[#F7F7F7] font-bold leading-[36px] transition duration-350 linear hover:text-[#d6d6d6]"
                   :to="{name: 'laravel'}"
-                >Laravel & Shopify</nuxt-link
+                >Laravel</nuxt-link
+                >
+              </li>
+
+              <li
+                class="bottom-menu-list-item w-6/12 mb-3 sm:mb-[20px] md:w-6/12 md:mb-[20px] lg:w-auto lg:mb-0"
+              >
+                <nuxt-link
+                  class="text-[16px] md:text-[24px] text-[#F7F7F7] font-bold leading-[36px] transition duration-350 linear hover:text-[#d6d6d6]"
+                  :to="{name: 'shopify'}"
+                >Shopify</nuxt-link
                 >
               </li>
               <li
