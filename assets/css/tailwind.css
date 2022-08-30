@@ -18,14 +18,40 @@
 .menu-list-item {
   @apply inline-block ml-10;
 }
+
+.menu-list-mobile-item {
+  @apply block mb-2;
+}
+
 .bottom-menu-list-item {
   @apply inline-block;
 }
+
+.mobile-menu {
+  @apply h-0 overflow-hidden;
+}
+
+.mobile-menu.active {
+  @apply h-auto overflow-hidden;
+}
+
 
 .menu-list-link {
   @apply block py-2 text-base font-semibold  transition duration-300 ease-linear hover:text-theme;
 }
 
 .hero-area {
-  @apply bg-cover bg-no-repeat bg-center py-24;
+  @apply bg-cover bg-no-repeat bg-center md:py-24 py-10;
+}
+
+.form-input {
+  @apply border border-solid border-gray-900 rounded h-10 w-full focus:border-[#37ba93] focus:outline-none;
+}
+
+.form-textarea {
+  @apply h-28 pt-2;
+}
+
+.proof-section {
+  background: linear-gradient(to bottom, #ffffff, #F2EFEB) !important;
 }
